@@ -35,7 +35,7 @@ def get_sentence():
 def calculate_frequencies(sentence):
     sentence = sentence[:-1].lower()   # removes last punctuation
     words = re.findall(r"\b\w+\b", sentence.lower()) # removes puncutation in word list
-    words = sentence.split()          # splits into list of words
+    
     word_list = []
     freq_list = []
 
