@@ -3,7 +3,7 @@
 # Fibonacci Sequence Exercise with functions
 # TODO: (Read detailed instructions in the Readme file)
 
-def get_user_input();
+def get_user_input():
   num = input("Enter a number of Fibonacci terms: ")
 
   while not num.isdigit() or int(num) <= 0:
